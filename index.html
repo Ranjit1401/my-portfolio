@@ -146,16 +146,22 @@
 
   <!-- Contact Section -->
   <section id="contact">
-    <div class="contact-container">
-      <h2>Contact Me</h2>
-      <p>Have a question or want to work together? Fill out the form below!</p>
-      <form class="contact-form">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message" rows="5" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
+  <div class="contact-container">
+    <h2>Contact Me</h2>
+    <p>Have a question or want to work together? Fill out the form below!</p>
+    <form class="contact-form" action="https://formsubmit.co/ranjitbhardwaj77@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      
+      <!-- Optional hidden fields -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="box">
+      <input type="hidden" name="_next" value="https://ranjit1401.vercel.app/thanks.html">
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
   </section>
 
   <!-- JavaScript -->
