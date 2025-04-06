@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ranjit Bhardwaj | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="#home" id="nav-home">Home</a></li>
+      <li><a href="#about" id="nav-about">About</a></li>
+      <li><a href="#skills" id="nav-skills">Skills</a></li>
+      <li><a href="#projects" id="nav-projects">Projects</a></li>
+      <li><a href="#achievements" id="nav-achievements">Achievements</a></li>
+      <li><a href="#resume-section" id="nav-resume">Resume</a></li>
+      <li><a href="#contact" id="nav-contact">Contact</a></li>
+    </ul>
+
+    <div class="navbar-actions">
+      <button id="language-toggle">🌐 EN</button>
+      <button id="dark-mode-toggle">🌙</button>
+      <a href="resume.pdf" download class="download-resume-btn">📄 Resume</a>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about-container">
+      <h2>Ranjit Bhardwaj</h2>
+      <p>
+        Hi, I'm Ranjit Bhardwaj, a first-year engineering student at Lokmanya Tilak College of Engineering,
+        pursuing Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning.
+        I'm passionate about technology, coding, and building innovative solutions.
+      </p>
+
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/ranjit-bhardwaj-1b5058349/" target="_blank">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/Ranjit1401" target="_blank">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+        </a>
+        <a href="mailto:ranjitbhardwaj77@gmaile.com" target="_blank">
+          <img src="https://img.icons8.com/fluency/48/000000/gmail.png" alt="Email">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <h3>HTML</h3>
+        <div class="skill-bar"><div class="skill-level" style="width: 95%;"></div></div>
+      </div>
+      <div class="skill">
+        <h3>CSS</h3>
+        <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
+      </div>
+      <div class="skill">
+        <h3>JavaScript</h3>
+        <div class="skill-bar"><div class="skill-level" style="width: 65%;"></div></div>
+      </div>
+      <div class="skill">
+        <h3>Python</h3>
+        <div class="skill-bar"><div class="skill-level" style="width: 75%;"></div></div>
+      </div>
+      <div class="skill">
+        <h3>C</h3>
+        <div class="skill-bar"><div class="skill-level" style="width: 70%;"></div></div>
+      </div>
+      <div class="skill">
+        <h3>Git & GitHub</h3>
+        <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website built using HTML, CSS, and JavaScript.</p>
+        <a href="https://github.com/yourusername/portfolio" target="_blank">View Code</a>
+      </div>
+      <div class="project-card">
+        <h3>E-Commerce Website</h3>
+        <p>A simple e-commerce site for online shopping, built using JavaScript.</p>
+        <a href="https://github.com/yourusername/e-commerce" target="_blank">View Code</a>
+      </div>
+      <div class="project-card">
+        <h3>Movie Ticket Booking App</h3>
+        <p>An app for booking movie tickets and viewing schedules.</p>
+        <a href="https://github.com/yourusername/movie-ticket" target="_blank">View Code</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements / Certifications Section -->
+  <section id="achievements">
+    <div class="achievements-container">
+      <h2>Achievements & Certifications</h2>
+      <div class="achievement-grid">
+        <div class="achievement-card">
+          <h3>Hackathon Winner</h3>
+          <p>Won 1st place at National Hackathon 2024 for building a student help AI chatbot.</p>
+          <span>March 2024</span>
+        </div>
+        <div class="achievement-card">
+          <h3>JavaScript Certification</h3>
+          <p>Certified by freeCodeCamp for completing JavaScript Algorithms and Data Structures.</p>
+          <span>Jan 2024</span>
+        </div>
+        <div class="achievement-card">
+          <h3>Web Development Course</h3>
+          <p>Completed full-stack development course by Udemy with real-world projects.</p>
+          <span>Dec 2023</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume-section">
+    <div class="resume-container">
+      <div class="resume-content">
+        <h2>Resume</h2>
+        <p>Click the button below to download my resume or view it directly.</p>
+        <a href="your-resume-link.pdf" target="_blank" class="resume-btn">📄 View Resume</a>
+      </div>
+      <div class="sticky-resume">
+        <iframe src="your-resume-link.pdf" frameborder="0"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact-container">
+      <h2>Contact Me</h2>
+      <p>Have a question or want to work together? Fill out the form below!</p>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
